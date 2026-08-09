@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sign Up | AI Fitness Coach</title><link rel="stylesheet" href="style.css"></head><body>
+<div class="auth-shell"><section class="auth-hero"><div class="logo"><i>✦</i> AI Fitness Coach</div><h1>Build better <span>daily habits.</span></h1><p>Create your account and set up your basic profile. Your dashboard will then provide general wellness guidance, routines and habit tracking.</p><div class="bullets"><div><b>✓</b> Personalized dashboard</div><div><b>✓</b> Daily routine & habit tracking</div><div><b>✓</b> AI wellness chat</div></div></section>
+<section class="auth-box"><div class="form"><h2>Create account</h2><p class="sub">Fill in your basic information. After signup, you'll be sent to the login page.</p><div id="msg" class="msg"></div>
+<form id="signupForm"><div class="grid">
+<div class="field full"><label>Full name</label><input id="name" required placeholder="Your name"></div>
+<div class="field"><label>Email</label><input id="email" type="email" required placeholder="you@example.com"></div>
+<div class="field"><label>Password</label><input id="password" type="password" minlength="6" required placeholder="Minimum 6 characters"></div>
+<div class="field"><label>Age</label><input id="age" type="number" min="13" max="100" required placeholder="Age"></div>
+<div class="field"><label>Height (cm)</label><input id="height" type="number" min="80" max="250" required placeholder="Height"></div>
+<div class="field"><label>Weight (kg)</label><input id="weight" type="number" min="25" max="300" required placeholder="Weight"></div>
+<div class="field"><label>Fitness goal</label><select id="goal"><option value="weight_loss">Weight loss</option></select></div>
+<div class="field"><label>Activity level</label><select id="activity"><option>Beginner / low activity</option><option>Lightly active</option><option>Moderately active</option><option>Very active</option></select></div>
+<div class="field full"><label>Workout preference</label><select id="workout"><option>Home workouts</option><option>Gym workouts</option><option>Walking & mobility</option><option>Mixed routine</option></select></div>
+</div><button id="btn" class="primary fullbtn">Create Account</button></form><p class="switch">Already registered? <a href="login.html">Login here</a></p></div></section></div><script type="module" src="auth.js"></script></body></html>
